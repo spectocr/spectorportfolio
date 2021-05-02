@@ -61,7 +61,10 @@ header nav ul li a {
   font-weight: bold;
   margin-left: 4px;
   border-bottom: 2px solid var(--primary-color);
+<<<<<<< HEAD
 
+=======
+>>>>>>> feature/responsive
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -246,4 +249,25 @@ footer {
   }
   footer a {
     color: var(--secondary-color);
+<<<<<<< HEAD
+=======
+  }
+
+  @media screen and (max-width: 600px) {
+    header nav ul {
+      margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+      }
+    header nav ul li a {
+      font-size: 16px;
+      flex-wrap: wrap;
+      margin: 10px 15px;
+      display: inline;
+      border-bottom: 0;
+      padding: 0;
+      padding-bottom: 20px;
+    }
+   
+>>>>>>> feature/responsive
   }
