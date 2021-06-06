@@ -61,10 +61,7 @@ header nav ul li a {
   font-weight: bold;
   margin-left: 4px;
   border-bottom: 2px solid var(--primary-color);
-<<<<<<< HEAD
 
-=======
->>>>>>> feature/responsive
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -136,8 +133,8 @@ header nav ul li a:hover {
     padding: 5px;
     border: 3px solid var(--tertiary-color);
     width: 100%;
-    height: 300px;
-    background-image: url("./images/runbuddy.png");
+    height: 350px;
+    background-image: url("./images/travilion.png");
     background-position: 60%;
     background-size: cover;
     background-position: center;
@@ -148,6 +145,7 @@ header nav ul li a:hover {
 .container-work-boxes-big:hover{
 opacity: .5;
 }
+
 .container-small-work-boxes {
     padding: 5px;
     margin-top: 50px;
@@ -160,6 +158,7 @@ opacity: .5;
     background-position: 80%;
     background-size: cover;
 }
+
 /* junk
 .container-work-boxes-small-left{
     padding: 5px;
@@ -183,22 +182,22 @@ opacity: .5;
 }*/
 .container-work-boxes {
     padding: 5px;
-    margin-top: 42%;
     font-size: 10px;
     background-color: var(--tertiary-color);
-    height: 50px;
+    height: auto;
     color: black;
     width: 20%;
+    bottom:0;
+    left:0;
 
 }
 .container-work-boxes-biglittle {
     padding: 5px;
-    margin-top: 20%;
     font-size: 10px;
     background-color: var(--tertiary-color);
     height: 50px;
     color: black;
-    width: 20%;
+    width: 25%;
 }
 .grid-container {
     display: grid;
@@ -216,10 +215,20 @@ opacity: .5;
     border: 3px solid var(--tertiary-color);
     height: 300px;
     background-image: url("./images/shipinstorm.jpeg");
-    background-position: 80%;
+    background-position: 100%;
     background-size: cover;
   }
   .grid-item:hover {
+    opacity: .5;
+  }
+#boxTwo {
+    background-image: url("./images/runbuddy.png");
+    height: 325px;
+  }
+  #boxTwo {
+    background-image: url("./images/runbuddy.png");
+  }
+  #boxTwo:hover {
     opacity: .5;
   }
 
@@ -249,8 +258,6 @@ footer {
   }
   footer a {
     color: var(--secondary-color);
-<<<<<<< HEAD
-=======
   }
 
   @media screen and (max-width: 600px) {
@@ -269,5 +276,4 @@ footer {
       padding-bottom: 20px;
     }
    
->>>>>>> feature/responsive
   }
